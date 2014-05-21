@@ -1,0 +1,4 @@
+name = Marc-Andre
+
+if name is Marc-Andre
+  write: Your name is @name

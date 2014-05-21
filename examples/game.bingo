@@ -1,0 +1,22 @@
+new background:
+  color = black
+  width = 100
+  height = 100
+  x = 0
+  y = 0
+
+new ball:
+  color = white
+  width = 10
+  height = 10
+  x = 0
+  y = 50
+
+every 1ms:
+  ball x + 1
+  
+  if ball x > 100
+    ball x = 0
+  
+  background draw
+  ball draw

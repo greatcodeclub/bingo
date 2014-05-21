@@ -1,0 +1,28 @@
+secret_number = Number between 1, 10
+
+10 times
+  my_number = ask: Choose a number from 1 to 10.
+
+  if my_number is secret_number
+    write: You win! The number was @secret_number.
+    quit
+  else
+    write: Try again.
+
+write: Better luck next time.
+
+
+-- In french
+- 
+- nombre_secret = Nombre entre 1, 10
+- 
+- 10 fois
+-   mon_nombre = demande: Choisis un nombre de 1 a 10.
+- 
+-   si mon_nombre est nombre_secret
+-     ecris: Bravo! Le nombre etait @nombre_secret
+-     quit
+-   else
+-     ecris: Essaie encore.
+- 
+- ecris: Meilleure chance la prochaine fois.
